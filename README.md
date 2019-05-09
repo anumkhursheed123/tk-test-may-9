@@ -1,4 +1,4 @@
-# Tech Karo - HTML / CSS Tes
+# Tech Karo - HTML / CSS TesT
 
 **Date:** May 9th, 2019
 
