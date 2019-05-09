@@ -1,0 +1,69 @@
+/* Write your CSS below. Try to make it responsive (i.e. no horizontal scroll) */
+li{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 20px;
+    }
+    figure{
+        text-align: center;
+       border-right-style: solid;
+       border-right-width:8px;
+       border-right-color: grey;
+       border-left-style: solid;
+       border-left-width:8px;
+       border-left-color: grey;
+    }
+    nav{
+        margin-left: 30em;
+    }
+    #figure-info{
+        display:flex;
+        flex-direction: row;
+    }
+    figcaption{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top:20PX;
+    }
+    p{
+        color:grey;
+    }
+    i{
+        color: #f8c04d;
+    }
+    hr{
+        color:grey;
+    }
+    .para{
+    color:rgb(29, 29, 29);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;  
+    }
+    s{
+    display: inline-block;
+    }
+    .size{
+        font-size:10px;
+    }
+    button{
+        background-color: #f2849e;
+        color:white;
+        border:none;
+        padding:1em 4em;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+    button:hover{
+        background-color: #ec4b75;
+    }
+    .btn:hover{
+        color:#b93e20
+    }
+    .size:hover{
+        color:#b93e20
+    }
+    body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex:'flex-shrink';
+    }
