@@ -1,10 +1,11 @@
 /* Write your CSS below. Try to make it responsive (i.e. no horizontal scroll) */
-li{
+.navigation{
 font-family: 'Source Sans Pro', sans-serif;
 font-weight: bold;
-display: inline-block;
-margin-left: 20px;
+display: flex;
+justify-content:flex end;
 }
+
 figure{
     text-align: center;
    border-right-style: solid;
@@ -14,9 +15,7 @@ figure{
    border-left-width:8px;
    border-left-color: grey;
 }
-nav{
-    margin-left: 30em;
-}
+
 #figure-info{
     display:flex;
     flex-direction: row;
