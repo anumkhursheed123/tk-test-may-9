@@ -3,7 +3,10 @@
 font-family: 'Source Sans Pro', sans-serif;
 font-weight: bold;
 display: flex;
-justify-content: flex-end;
+flex-direction:row;
+}
+ul{
+    display:flex;
 }
 
 figure{
